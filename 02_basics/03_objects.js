@@ -1,5 +1,3 @@
-// declaration ways : 
-
 // 1. using object literals
 
 const mySym = Symbol("Key1")
@@ -50,6 +48,6 @@ console.log(JsUser.greetingTwo)
 
 
 
-// 2. using the Object constructor
+
 
 
