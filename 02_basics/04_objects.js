@@ -77,12 +77,14 @@ console.log(coursename, price, instructor) // accessing the properties using des
 
 //JSON || API
 
-// {
+// when JSON or API is returned as a object, it is usually in the form of a string 
+// {                        
 //     "name": "Tushar",
 //     "coursename": "JavaScript Basics",
 //     "price": "free",
 // }
 
+// when JSON or API is returned as an array of objects, it is usually in the form of a string
 // [
 //     {},
 //     {},
