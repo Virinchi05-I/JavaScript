@@ -10,3 +10,9 @@ scope
     parent function and child function scope accessing
     function hoisting 
     function declaration vs function expression
+`this` keyword 
+: it talks about the current context
+    this in function
+
+    ===> global object in browser is windows
+Immeditely Invoked Function Expression (IIFE)
