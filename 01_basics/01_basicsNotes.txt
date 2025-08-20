@@ -3,6 +3,9 @@ comparision operator vs equality check operator
 preIncrement vs postIncrement operator
 null and undefined data types
 primitive vs reference data types
-is JS a dynamic or static typed language
+is JS a dynamic or static typed language ?
 typeof operator - null type and reference data type 
 Stack vs Heap memory
+String methods
+Math and numbers in JS
+date and time 

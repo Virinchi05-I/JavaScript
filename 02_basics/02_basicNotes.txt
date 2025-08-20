@@ -1,0 +1,12 @@
+Arrays
+    methods
+    slice() vs splice() 
+    flat()
+    spread operator (...)
+    from() 
+        from({object}) : interview related
+    of()
+    isArray()
+Object
+    declaration : using literal vs singleton
+    Key & Value pair user defined
