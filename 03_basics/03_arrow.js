@@ -39,6 +39,7 @@ const chai =  () => {
 /*
     this is a shorter way to write arrow function called implicit return
     it will return the value without using return keyword use this when you have only one expression
+    
     when you use curly braces it will not return the value automatically
     if you want to return the value you have to use return keyword
 */
