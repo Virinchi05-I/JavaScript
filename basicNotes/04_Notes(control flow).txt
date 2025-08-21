@@ -1,0 +1,7 @@
+if-else
+switch case 
+    break keyword
+Truthy and falsy values
+Nullish Coalescing Operator (??): null undefined
+Terniary operator
+condition ? true : false

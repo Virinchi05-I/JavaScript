@@ -1,0 +1,38 @@
+functions
+    return statement 
+    parameter and argument 
+    rest operator
+scope
+    block scope 
+    global scope
+    difference between global scope in windows and global scope in code environment through node
+    closure
+    parent function and child function scope accessing
+    function hoisting 
+    function declaration vs function expression
+    --> scope of var is global i.e it does have a block scope
+`this` keyword 
+: it talks about the current context
+    this in function
+
+    ===> global object in browser is windows
+
+Immeditely Invoked Function Expression (IIFE)
+
+JavaScript Excecution Context
+    Global Excecution Context
+    Function Excecution Context
+    Eval Excecution Context
+
+how does JavaScriptexecute code :
+1. Global Execution Context 
+2. Memory Phase 
+    all variable are gathered and assigned `undefined` 
+    any function will have its definition saved in tthe memory 
+3. Execution Phase
+    values which are assigned to the variable in the code is saved in the memory
+    function call ==> (new variable environment + execution thread)
+
+    This will work till every variable and function is executed.
+
+Call Stack
