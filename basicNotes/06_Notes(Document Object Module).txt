@@ -4,6 +4,7 @@ style..(attribute)
 document
 window
 
+All About DOM
 
 document.querySelector('input[type="password"]')
 
