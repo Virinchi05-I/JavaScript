@@ -4,11 +4,15 @@ style..(attribute)
 document
 window
 
+<<<<<<< HEAD
 Document Object Modelling(DOM)
     DOM Inroduction
     All DOM selectors NodeList and HTMLCollections
     Creating new element in DOM
     Edit and remove element in DOM
+=======
+All About DOM
+>>>>>>> 0590d69dbccfdcc40b21a26380358c24b3db9171
 
 document.querySelector('input[type="password"]')
 
