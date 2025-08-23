@@ -4,6 +4,11 @@ style..(attribute)
 document
 window
 
+Document Object Modelling(DOM)
+    DOM Inroduction
+    All DOM selectors NodeList and HTMLCollections
+    Creating new element in DOM
+    Edit and remove element in DOM
 
 document.querySelector('input[type="password"]')
 
