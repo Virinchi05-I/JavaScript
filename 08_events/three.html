@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code</title>
+</head>
+<body>
+    <h1>Chai aur JavaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+    // setInterval will execute the call back function after the given time continously
+    
+    // setInterval(function(){
+    //     console.log("Tushar", Date.now());
+    // }, 1000)
+
+    // const sayDate = function(){
+    //     console.log("Tushar", Date.now());
+    // }
+
+    // setInterval(sayDate, 1000)
+
+    const sayDate = function(str){
+        console.log(str, Date.now());
+    }
+
+    let intervalId;
+
+    document.querySelector('#stop').
+    addEventListener('click', function(){
+        intervalid =  clearInterval(intervalId) // setting the value of intervalId to stop it
+        console.log("STOPPED")
+    })
+
+    
+    document.querySelector('#start').
+    addEventListener('click', function(){
+        intervalId = setInterval(sayDate, 1000, "hi") // setting the value of  intervalId to start it
+        console.log("STARTED")
+    })
+
+
+</script>
+</html> 

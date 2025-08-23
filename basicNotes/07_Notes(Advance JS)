@@ -16,7 +16,7 @@ what is event spill over ? how it can be prevented ?
     
 
 Async :
-
 Js is a synchronous language i.e single threaded and executes one line of code at a time
 Blocking code vs Non Blocking code
 
+setTimeout, setInterval, clearTimeout, claerInterval

@@ -176,5 +176,80 @@ function newGame() {
   })
 }
 
+```
+
+## project 5 solution
+
+
+``` JavaScript
+
+const insert = document.getElementById('insert')
+
+window.addEventListener('keydown', (e) => {
+  insert.innerHTML = `
+    <div class='color'>
+    <table>
+    <tr>
+      <th>Key</th>
+      <th>KeyCode</th>
+      <th>Code</th>
+    </tr>
+    <tr>
+      <td>${e.key === " " ? "Space" : e.key}</td>
+      <td>${e.keyCode}</td>
+      <td>${e.code}</td>
+    </tr>
+  </table>
+    </div>
+  `
+})
+
+
+
+
+
+```
+
+## project 6 solution
+
+
+``` JavaScript
+
+//generate a random color
+
+const randomColor = function(){
+  const hex = "0123456789ABCDEF"
+  let color = '#'
+  for(let i = 0; i < 6; i++){
+    color += hex[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
+
+let intervalId;
+
+const startChangingColor = function(){
+  if(!intervalId){
+    intervalId = setInterval(changeBgColor, 1000)
+  }
+  /* 
+    this is a good practice as we set the value of intervalId null this will check if the value is null then it will provide the new value after every stop it will assign the new value to this variable
+  */
+  
+  function changeBgColor(){
+    document.body.style.backgroundColor = randomColor()
+  }
+}
+const stopchangingColor = function(){
+  clearInterval(intervalId);
+  intervalId = null; 
+  /* 
+    this is an edge case for efficient code as we are setting the value of intervalId as null ultimately free the memory after stopping this is a good practice in development setting the value to null after stopping
+  */
+}
+
+document.querySelector('#start').addEventListener('click', startChangingColor)
+
+document.querySelector('#stop').addEventListener('click', stopchangingColor)
 
 ```
