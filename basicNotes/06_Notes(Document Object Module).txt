@@ -1,10 +1,3 @@
-querySelector()
-querySelectorAll()
-style..(attribute)
-document
-window as an object
-
-
 Document Object Modelling(DOM)
     DOM Inroduction
     All DOM selectors NodeList and HTMLCollections
@@ -12,19 +5,11 @@ Document Object Modelling(DOM)
     Edit and remove element in DOM
 All About DOM
 
+querySelector()
+querySelectorAll()
+style..(attribute)
+document
+window as an object
 
-document.querySelector('input[type="password"]')
 
 
-const myUl = document.querySelector('ul')
-undefined
-myUl.querySelector
-ƒ querySelector() { [native code] }
-myUl.querySelector('li')
-<li>​…​</li>​::marker​"one"</li>​
-const turnGreen = myUl.querySelector('li')
-undefined
-turnGreen.style.backgroundColor = "green
-VM3220:1 Uncaught SyntaxError: Invalid or unexpected token
-turnGreen.style.padding = "10px"
-'10px'

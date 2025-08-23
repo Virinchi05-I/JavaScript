@@ -1,0 +1,22 @@
+Events:
+attachEvent(), jquery
+
+diff types of events
+
+topics to learn in event:
+type(like keyboard event and mouse event), timestamp, defaultPrevented,
+target, toElement, srcElement, currentTarget,
+clientX, clientY, screenX, screenY
+altkey, ctrlkey, shiftkey, keyCode
+        
+eventlistner 
+        
+Event Propagation : Event Bubling, Event Capturing, stopPropagation()
+what is event spill over ? how it can be prevented ?
+    
+
+Async :
+
+Js is a synchronous language i.e single threaded and executes one line of code at a time
+Blocking code vs Non Blocking code
+
