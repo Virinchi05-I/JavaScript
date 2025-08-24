@@ -21,4 +21,6 @@ Blocking code vs Non Blocking code
 
 setTimeout, setInterval, clearTimeout, claerInterval
 
-fetch api, promise, async, await, then, catch, response, reject,
+fetch api, promise, async, await, then, catch, response, reject
+
+new, this (keyword) classes, constructor, instanceof
