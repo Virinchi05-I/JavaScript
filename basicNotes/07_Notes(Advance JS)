@@ -20,3 +20,5 @@ Js is a synchronous language i.e single threaded and executes one line of code a
 Blocking code vs Non Blocking code
 
 setTimeout, setInterval, clearTimeout, claerInterval
+
+fetch api, promise, async, await, then, catch, response, reject,
