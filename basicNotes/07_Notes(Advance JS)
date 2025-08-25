@@ -24,3 +24,5 @@ setTimeout, setInterval, clearTimeout, claerInterval
 fetch api, promise, async, await, then, catch, response, reject
 
 new, this (keyword) classes, constructor, instanceof
+
+Lexical Scoping, Closure
