@@ -33,7 +33,15 @@ const hundred = 1000000
 const min = 1
 const max = 6
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+// console.log(Math.imul(5, 3)); // returns the result of 32-bit multiplication of two numbers
+// console.log(Math.sign(min)); // returns the sign of a number
+// console.log(Math.log1p(max)); // returns the natural logarithm of 1 + x
+// console.log(Math.hypot(5, 12)); // returns the square root of the sum of squares of its arguments
+// console.log(Math.sqrt(25));  // returns the square root of a number
+// console.log(Math.cbrt(27));  // returns the cube root of a number
+
 
 
 

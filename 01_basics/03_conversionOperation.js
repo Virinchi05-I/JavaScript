@@ -15,7 +15,7 @@
 
 //let score = undefined
 //let score = true
-// let score = "Tushar"
+//let score = "Tushar"
 
 // console.log(typeof score)
 
@@ -31,13 +31,13 @@
     null => 0
 */
 
-// let isLoggedIn = 1 // output => true
+// let isLoggedIn = 0 // output => true
 // let isLoggedIn = "" // output => false so if the value of isLoggedIn is an empty string this will 
                        // confirm that no use is logged in the system
 
 // let isLoggedIn = "Tushar" // output => true
 
-// let booleanIsLoggedIn = Boolean(isLoggedIn)
+let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn)
 
 let num = 33

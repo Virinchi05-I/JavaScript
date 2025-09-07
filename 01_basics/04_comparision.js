@@ -10,7 +10,7 @@
     null >= 0 => true
 
     The reason is that an equality check == and comparision '>', '<', '>=' and '<=' works differently.
-    comparision convert null to a number treating it as 0 that's why null >= 0 => true while other two are false
+    when null is converted it oesn't actually converted to 0 every time that's why null >= 0 or null > is true while other two are false
 */
 
 // console.log(undefined > 0) 

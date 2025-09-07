@@ -64,20 +64,24 @@ const myFunction = function () {
 
 */
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 /*
-    Stack => Primitive data types are stored in the stack memory.
-    Heap => Non-primitive data types are stored in the heap memory.
+    (Stack => Primitive data types are stored in the stack memory)
+    (Heap => Non-primitive data types are stored in the heap memory)
 
 */
 
 let Name = "Tushar";
 
 let anotherName = Name; 
+console.log(anotherName);
+
+anotherName = "Tushar Kumar"
+
 /*  here 'anotherName' is a copy of 'Name'
     If we change 'anotherName', it will not change 'Name'
 */
-
-anotherName = "Tushar Kumar" 
 
 console.log(Name);
 console.log(anotherName);
@@ -89,6 +93,13 @@ let user1 = {
     }
 
 let user2 = user1;
+
+console.log(user1.email)
+console.log(user2.email) 
+/* here user2 is a reference to user1
+   if we change user2, it will change user1 also
+*/
+
 
 user2.email = "tushar@google.com"
 

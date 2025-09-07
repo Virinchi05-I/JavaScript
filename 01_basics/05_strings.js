@@ -23,7 +23,7 @@ const newString = gameName.substring(0, 3) //substring from index 0 to 3
     thus it will not include the character at index 3
 */
 
-const anotherString = gameName.slice(-8, 3) //slice from index 0 to 3
+const anotherString = gameName.slice(0, 3) //slice from index 0 to 3
 // console.log(anotherString)
 /*
     the upper limit in .slice method is also exclusive,
