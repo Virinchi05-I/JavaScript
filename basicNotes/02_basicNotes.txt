@@ -1,12 +1,42 @@
 Arrays
     methods
-    slice() vs splice() 
+
+    slice() vs splice() :
+
+    splice 
+
     flat()
-    spread operator (...)
+    
+    spread operator (...arr, ...Arr)
+    
     from() 
         from({object}) : interview related
+    
     of()
+    
     isArray()
+
 Object
     declaration : using literal vs singleton
+    
     Key & Value pair user defined
+
+    declaring Symbol and using it in an object
+
+    acessing properties of an object using . & []
+
+    function calling via object 
+
+    singleton object vs non singleton object
+
+    Object.assign() and spread operator
+
+    Object.keys, Object.values, Object.entries
+
+    hasOwnProperty('property name')
+
+    Other Methods
+
+    Optional Chaining
+
+

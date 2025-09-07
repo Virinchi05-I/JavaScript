@@ -1,6 +1,6 @@
-// array
+// array 
 
-const myArr = [0, 1, 2, 3, 4, 5]
+const myArr = [1, 2, 3, 4, 5,]
 const myArr2 = new Array(1 ,2, 3, 4 ,5)
 
 // console.log(myArr[4])
@@ -18,7 +18,7 @@ const myArr2 = new Array(1 ,2, 3, 4 ,5)
 // console.log(myArr)
 
 // console.log(myArr.includes(9)) // checks if the array includes an element
-// console.log(myArr.indexOf(3)) // returns the index of the element
+// console.log(myArr.indexOf(2)) // returns the index of the element
 
 const newArr = myArr.join()
 
@@ -27,17 +27,28 @@ const newArr = myArr.join()
 
 // slice splice 
 
-console.log("A ", myArr)
+// console.log("Original Array ", myArr)
 
-const myn1 = myArr.slice(1, 3) // returns a new array with elements from index 1 to 2
+// const myn1 = myArr.slice(1, 3) // returns a new array with elements from index 1 to 2 upperIndex is not taken 
 
-console.log(myn1)
-console.log("B ", myArr) 
+// console.log("Original Array ", myArr) 
+// console.log("sliced Array ",myn1)
 
-const myn2 = myArr.splice(1, 3)
+// const myn2 = myArr.splice(1, 3)
 
-console.log("C ", myArr) 
-console.log(myn2)
+// console.log("Original Array ", myArr) 
+// console.log("Spliced Array ", myn2)
+
+myArr.map((element, index) => {
+    myArr[index] = element * 2
+})
+
+console.log(myArr);
+
+myArr.forEach((element, index) => {
+    console.log(`Element: ${element} and Index: ${index}`);
+})
+
 
 
 

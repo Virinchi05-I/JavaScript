@@ -36,7 +36,7 @@ JsUser.greeting = function(){
 JsUser.greetingTwo = function(){
     console.log(`Hello Js User, ${this.name}`) 
 }
-
+ 
 
 // calling the function inside the object
 

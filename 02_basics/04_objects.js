@@ -21,11 +21,12 @@ const regularUser = {
 }
 
 // console.log(regularUser.fullname.userfullname.lastname) // object with nested objects
+// console.log(regularUser.fullname?.userfullname?.lastname) // object with optional chaining
 
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "c", 4: "d"}
 
-// const obj3 = {obj1, obj2} // nested objects
+// const obj3 = {obj1, obj2} // nested objects 
 // const obj3 = Object.assign({}, obj1, obj2) // merging objects
 
 const obj3 = {...obj1, ...obj2} // using spread operator to merge objects recommended way

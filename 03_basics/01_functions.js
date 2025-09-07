@@ -19,7 +19,7 @@ function sayMyName(){
 //     console.log(num1 +  num2)
 // }
 
-function addTwoNumbers(num1, num2){
+function addTwoNumbers(num1, num2){ // this is the standard way to write a function ---> these are parameters
     
     // let sum = num1 + num2
     // return sum
@@ -63,7 +63,7 @@ const user = {
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`)
  }
 
-// handleObject(user)
+handleObject(user)
 // handleObject({
 //     username: "Tushar",
 //     price: 1000,

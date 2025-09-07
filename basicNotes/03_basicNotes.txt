@@ -1,7 +1,10 @@
 functions
     return statement 
+
     parameter and argument 
-    rest operator
+
+    rest operator (... )
+
 scope
     block scope 
     global scope
@@ -11,11 +14,14 @@ scope
     function hoisting 
     function declaration vs function expression
     --> scope of var is global i.e it does have a block scope
-`this` keyword 
-: it talks about the current context
+
+`this` keyword :
+    it talks about the current context
     this in function
 
     ===> global object in browser is windows
+
+Arrow Function
 
 Immeditely Invoked Function Expression (IIFE)
 
