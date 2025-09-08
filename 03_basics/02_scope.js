@@ -48,5 +48,5 @@ const addTwo = function(num){
     The difference between the two is that the first function declaration is hoisted, 
     meaning it can be called before its definition in the code.
     The second function expression is not hoisted, so it must be defined before it can be called.
-    This is why the first call to addone works, while the second call to add
+    This is why the first call to addone works, while the second call to addTwo throws an error.
 */

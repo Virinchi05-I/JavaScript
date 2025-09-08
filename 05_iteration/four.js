@@ -1,4 +1,4 @@
-// for iterating over object 
+    // for iterating over object 
 const myObject = {
     js: "javascript",
     cpp: "C++",

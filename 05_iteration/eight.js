@@ -4,7 +4,7 @@ const myNums = [1, 2, 3, 4, 5]
 // const sum = myNums.reduce( function(acc, currVal)  { 
 //     console.log(`acc is ${acc} and currVal is ${currVal}`);
 //     return acc + currVal 
-// }, 0);
+// }, 0); 
 
 const sum = myNums.reduce( (acc, currVal) => acc + currVal,   0)
 

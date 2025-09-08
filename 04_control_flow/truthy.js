@@ -19,7 +19,8 @@ const emptyObj = {} // it is a truthy value an empty obj
 //   console.log("Empty object is truthy.");
 // }
 
-// Nullish Coalescing Operator (??): null undefined
+// Nullish Coalescing Operator (??): null undefined 
+// nullish coalescing operator is used to assign a default value to a variable if it is null or undefined
 
 let val1
 // val1 = 5 ?? 10 

@@ -21,7 +21,7 @@ scope
 
     ===> global object in browser is windows
 
-Arrow Function
+Arrow Function vs function
 
 Immeditely Invoked Function Expression (IIFE)
 

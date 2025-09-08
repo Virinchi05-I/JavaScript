@@ -2,9 +2,12 @@ for loop
 break and continue keywords
 while vs do while loop 
 Map - no duplicate values, not iterable
+for-of loop : objects can't be iterated via this loop
 for-in loop
 for-each loop : does not return value
+
 filter method
 map method
+reduce method 
+
 chaining methods
-reduce method

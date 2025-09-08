@@ -73,8 +73,8 @@ const course = {
     courseInstructor: "Tushar",
 }
 
-const {coursename: name, price, courseInstructor: instructor} = course // destructuring the object
-console.log(coursename, price, instructor) // accessing the properties using destructuring
+const {coursename: Cname, price, courseInstructor: instructor} = course // destructuring the object
+console.log(Cname, price, instructor) // accessing the properties using destructuring
 
 //JSON || API
 

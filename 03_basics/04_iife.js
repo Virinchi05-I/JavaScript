@@ -1,3 +1,21 @@
+(function () {
+
+  var count = 0; // private
+
+  function increment() {
+    count++;
+    console.log(count);
+  }
+
+  increment(); // 1
+  increment(); // 2
+})();
+
+console.log(count); // "undefined"
+
+
+
+
 // Immeditely Invoked Function Expression (IIFE)
 
 // (function chai(){ //named iife
@@ -14,6 +32,6 @@ It can be used to encapsulate code and avoid conflicts with other scripts.
 IIFE can be used to create a private scope for variables and functions.
 */
 
-( (name) => { // unnamed iife
+/* ( (name) => { // unnamed iife
     console.log(`DB CONNECTED TWO ${name}`)
-})('Tushar')
+})('Tushar') */

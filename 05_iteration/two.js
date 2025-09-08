@@ -26,6 +26,6 @@ do {
 
 let a = 1;
 while(a < 5){
-    console.log("WHILE: loop is running");
     a++
+    console.log("WHILE: loop is running");
 }

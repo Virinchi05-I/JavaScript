@@ -15,7 +15,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"];
 // coding.forEach(printMe) // here we only have to give reference of the function not execution[printMe()]
 
 coding.forEach( (items, index, arr) => {
-    // console.log(items, index, arr);
+    console.log(items, index, arr);
 } )
 
 const myCoding = [
