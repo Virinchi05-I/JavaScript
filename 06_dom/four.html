@@ -19,30 +19,31 @@
     }
 
     addLanguage("Python")
-    addLanguage("Type Script")
+    addLanguage("typeScript")
     
     function addOptiLanguage(langName){
         const li = document.createElement('li')
         li.appendChild(document.createTextNode(langName))
         document.querySelector('.language').appendChild(li)
     }
-    addOptiLanguage("Java")
+    addOptiLanguage("golang")
 
     //Edit
-    const secongLang = document.querySelector("li:nth-child(2)")
-    console.log(secondlang);
+
+    const secondLang = document.querySelector("li:nth-child(2)")
+    console.log(secondLang);            
     //secondLang.innerHTML = "Mojo"
     const newli = document.createElement('li')
     newli.textContent = "Mojo"
-    secondLang.replacewith(newli) 
+    secondLang.replaceWith(newli) 
 
     //edit
-    const firstLang = document.queryselection("li:first-child")
-    firstLang.outerHTML = '<li> TypeScript </li>'
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = '<li> rust </li>'
 
     //remove
     const lastlang = document.querySelector("li:last-child")
-    lastlang.remove
+    lastlang.remove()
 
 </script>
 </html>

@@ -1,15 +1,25 @@
+window as an object
 Document Object Modelling(DOM)
-    DOM Inroduction
-    All DOM selectors NodeList and HTMLCollections
+    
+    DOM Inroduction :
+    
+    document && All DOM selectors : querySelector(), querySelectorAll()
+    
+    style..(attribute), innerText, innerHTML, textContent and how are they different
+    
+    Array, NodeList and HTMLCollections
+
+    .parentElement, .nextElementSibling .chidlren, .firstElementChild, .lastElementChild, .childNodes, .createElement,
+    .className, .setAttribute, .appendChild(), .replaceWith(), .remove()
+    
     Creating new element in DOM
+    
     Edit and remove element in DOM
+
 All About DOM
 
-querySelector()
-querySelectorAll()
-style..(attribute)
-document
-window as an object
+
+children
 
 
 
