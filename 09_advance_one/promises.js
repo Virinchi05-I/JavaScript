@@ -37,7 +37,7 @@ const promiseFour = new Promise(function(resolve, reject){
         if(!error){
             resolve({username:"Tushar", password:"156"})
         }else{
-            reject('ERRO: Something went wrong')
+            reject('ERROR: Something went wrong')
         }
     }, 2000)
 })

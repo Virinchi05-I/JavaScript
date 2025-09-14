@@ -8,7 +8,7 @@ class User {
     }
 
     encryptPassword(){
-        return `${this.password}abc`
+        return `123256${this.password}abc`
     }
 
     changeUsername(){
@@ -34,7 +34,7 @@ const tushar = new User("Tushar", "tkp@example.com", "123")
 // }
 
 
-const tea = new User("Tea", "tea@example.com", "1256")
+const tea = new User("Tea", "tea@example.com", "250502")
 
 console.log(tea.encryptPassword());
 console.log(tea.changeUsername());

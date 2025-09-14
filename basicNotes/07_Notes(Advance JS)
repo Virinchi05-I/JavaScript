@@ -1,28 +1,49 @@
 Events:
-attachEvent(), jquery
+    eventListener
+    why not to use onClick in the html tag or directly with the document without using addEventListener()?,
+    addEventListener(event, callback function: function(e){}, true/false),
+    e is event object
 
-diff types of events
+    attachEvent(), 
+    jQuery()
 
-topics to learn in event:
-type(like keyboard event and mouse event), timestamp, defaultPrevented,
-target, toElement, srcElement, currentTarget,
-clientX, clientY, screenX, screenY
-altkey, ctrlkey, shiftkey, keyCode
-        
-eventlistner 
-        
-Event Propagation : Event Bubling, Event Capturing, stopPropagation()
-what is event spill over ? how it can be prevented ?
+    diff types of events : click, keydown......
+
+    topics to learn in event:
+    type(like keyboard event and mouse event), timestamp, preventDefault,
+    target, toElement, srcElement, currentTarget,
+    clientX, clientY, screenX, screenY
+    altkey, ctrlkey, shiftkey, keyCode 
+            
+    Event Propagation : Event Bubling, Event Capturing, stopPropagation()
+    what is event spill over ? how it can be prevented ? 
     
-
 Async :
-Js is a synchronous language i.e single threaded and executes one line of code at a time
-Blocking code vs Non Blocking code
+    Js is a synchronous & single threaded language and executes one line of code at a time
 
-setTimeout, setInterval, clearTimeout, claerInterval
+    Blocking code vs Non Blocking code, how does Asynchronus api call works, task queue and priority queue
+    setTimeout, setInterval, clearTimeout, clearInterval and other async api calls and methods  
 
-fetch api, promise, async, await, then, catch, response, reject
+Api request : 
+    XMLHttpRequest() -: .send(), .open(), onreadystateChange, this.responseText
+    JSON: .parse(), .stringify
 
-new, this (keyword) classes, constructor, instanceof
+Promises: 
+    how to create it ?? how to consume it ?
+    resolve(), reject(), then(), finally(), catch(), response(), reject() 
 
-Lexical Scoping, Closure
+    async, await (keyword)
+
+    fetch(): how does it work ?? why was it introduced ??
+
+Oops JS concept:
+    Objects - object creation
+
+    Abstraction, Encapsulation, Inheritance, Polymorphism
+    
+    Prototype - setPrototypeOf(), __proto__, injecting method inside a non primitive type 
+    constructor, instanceof
+    
+    new, this,(keyword), super(), call(), bind(), setter(set), getter(get), defineProperty(), hasOwnProperty()...
+    
+    Lexical Scoping, Closure

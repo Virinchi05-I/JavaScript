@@ -7,7 +7,7 @@ Document Object Modelling(DOM)
     
     style..(attribute), innerText, innerHTML, textContent and how are they different
     
-    Array, NodeList and HTMLCollections
+    Array, NodeList and HTMLCollections || children and parent
 
     .parentElement, .nextElementSibling .chidlren, .firstElementChild, .lastElementChild, .childNodes, .createElement,
     .className, .setAttribute, .appendChild(), .replaceWith(), .remove()
@@ -19,7 +19,7 @@ Document Object Modelling(DOM)
 All About DOM
 
 
-children
+
 
 
 
